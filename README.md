@@ -1,4 +1,4 @@
-A minimal Zsh script for dictating short memos:  
+A minimal sh script for dictating short memos:  
 Records microphone audio using FFmpeg, transcribes to text with Whisper, and optionally inserts the result into your terminal via simulated typing.
 
 ## Dependencies
