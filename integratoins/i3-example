@@ -1,0 +1,2 @@
+# Trigger speech-to-text with Mod+Shift+S
+bindsym $mod+Shift+s exec --no-startup-id /path/to/dictate-loop.sh

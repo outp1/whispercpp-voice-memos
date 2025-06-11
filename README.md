@@ -19,3 +19,11 @@ Ensure the Whisper model (`ggml-base.bin` by default) exists at `$HOME/repos/whi
 ```
 
 Follow the on-screen prompts to record and handle transcriptions.
+
+### I3 Integration
+
+Add this snippet to your i3 config to trigger speech-to-text with Mod+Shift+S using your script.
+```
+# Trigger speech-to-text with Mod+Shift+S
+bindsym $mod+Shift+s exec --no-startup-id /path/to/dictate-loop.sh
+```
